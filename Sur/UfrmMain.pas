@@ -390,7 +390,7 @@ begin
     if bRegister then
     begin
       FInts :=CreateOleObject('Data2LisSvr.Data2Lis');
-      FInts.fData2Lis(ReceiveItemInfo,rightstr('0000'+inttostr(SXH),4),FormatDateTime('YYYY-MM-DD',DateTimePicker1.Date),
+      FInts.fData2Lis(ReceiveItemInfo,rightstr('0000'+inttostr(SXH),4),FormatDateTime('YYYY-MM-DD',DateTimePicker1.Date)+' '+FormatdateTime('hh:nn:ss',now),
         (GroupName),(SpecType),YS+';'+TMD,(EquipChar),
         (CombinID),
         name+'{!@#}'+SEX+'{!@#}{!@#}'+age+'{!@#}'+BRID+'{!@#}'+KB+'{!@#}'+SJYS+'{!@#}'+BCH+'{!@#}'+ZDJL+'{!@#}{!@#}'+JYYS,
