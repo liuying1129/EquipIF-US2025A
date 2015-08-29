@@ -1,0 +1,2 @@
+联机标识：
+JZ_ITEM.CAPTION的值
